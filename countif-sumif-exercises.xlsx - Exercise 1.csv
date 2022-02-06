@@ -1,0 +1,52 @@
+Order no.,Date,Driver's name,Item,Number of items,Transport,Destination
+100001,2/1/2013,John May,TV,25,truck 4,Boston
+100002,2/1/2013,Peter White,washing machine,30,truck 3,NY
+100003,2/2/2013,Carl Nowak,washing machine,15,truck 3,Philadelphia
+100004,2/3/2013,Peter White,TV,32,truck 4,NY
+100005,2/3/2013,George Ramsay,refrigerator,25,truck 3,Boston
+100006,2/3/2013,Carl Nowak,washing machine,18,truck 1,Baltimore
+100007,2/3/2013,John May,refrigerator,15,truck 2,Philadelphia
+100008,2/4/2013,Carl Nowak,refrigerator,25,truck 3,Baltimore
+100009,2/4/2013,Peter White,TV,30,truck 1,Pittsburgh
+100010,2/4/2013,George Ramsay,refrigerator,15,truck 2,NY
+100011,2/4/2013,Mertl Pavel,microwave,25,truck 3,Philadelphia
+100012,2/4/2013,John May,washing machine,14,truck 4,NY
+100013,2/5/2013,John May,washing machine,25,airplane,Baltimore
+100014,2/5/2013,Carl Nowak,TV,30,truck 4,Philadelphia
+100015,2/5/2013,George Ramsay,microwave,15,truck 3,Boston
+100016,2/5/2013,Peter White,TV,15,truck 1,Pittsburgh
+100017,2/6/2013,John May,microwave,25,truck 1,NY
+100018,2/7/2013,John May,TV,30,truck 4,Philadelphia
+100019,2/8/2013,George Ramsay,washing machine,13,truck 3,Baltimore
+100020,2/8/2013,Peter White,refrigerator,25,truck 2,Philadelphia
+100021,2/8/2013,Carl Nowak,microwave,30,truck 1,Pittsburgh
+100022,2/8/2013,Peter White,washing machine,15,airplane,NY
+100023,2/8/2013,John May,microwave,25,truck 4,Boston
+100024,2/9/2013,George Ramsay,washing machine,34,truck 3,Baltimore
+,,,,,,
+,,,,,,
+,,,,,countif / countifs,
+,,,,number of orders in Boston :,,4
+,,,,number of microwave orders  :,,5
+,,,,number of journeys with truck 3:,,8
+,,,,number of Peter White journeys:,,6
+,,,,how many times are no. of items less than 20:,,9
+,,,,,,
+,,,,,sumif / sumifs,
+,,,,sum of refrigerator items:,,105
+,,,,sum of washing machine items:,,164
+,,,,sum of items transported by truck 4:,,156
+,,,,sum of items transported by trucks:,,511
+,,,,,,
+,,,,,countifs,
+,,,,number of microvawe orders in Boston :,,2
+,,,,number of Peter White journeys with truck 1:,,2
+,,,,number of orders in Boston after 2/3/2013:,,2
+,,,,number of orders between 2/3/2013 and 2/6/2013:,,9
+,,,,,sumifs,
+,,,,sum of microwaves transported to NY:,,25
+,,,,sum of items transported to Pittsburgh by truck 1:,,75
+,,,,sum of items ordered between 2/3/2013 and 2/6/2013:,,194
+,,,,,,
+,,,,,,
+,,,,"sum of items transported to NY, Baltimore and Philadelphia:",,386
